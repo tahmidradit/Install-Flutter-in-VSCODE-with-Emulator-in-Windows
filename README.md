@@ -16,7 +16,7 @@ Click new
 
 <img width="108" height="340" alt="image" src="https://github.com/user-attachments/assets/11941fdb-abae-4abc-892a-83a13d0ccae0" />
 
-Paste C:\src\Flutterflutter\bin to your environment variables. Enter flutter --version to check the installation.
+Paste C:\src\Flutter\flutter\bin to your environment variables. Enter flutter --version to check the installation.
 
 2. Install JDK 21 and add C:\Program Files\Java\jdk-21\bin to your path. Enter java --version to check the installation.
 3. Extract Android Command line tools in C:\src\Android\SDK and make a new folder named "latest" and move everything inside cmdline-tools in latest folder. Now add  C:\src\Android\SDK\cmdline-tools\latest\bin in your environment variables path.
