@@ -67,12 +67,18 @@ If you see • No issues found! message, you have syccessfully installed Android
 
 ### Visual Studio Code Setup 
 Install Required extentions : Flutter, Dart, Android iOS Emulator
+Open settings in VS code and search emulator. Find Emulator Path and Emulator Path Windows set the emulator location.
+> C:\src\Android\SDK\emulator
+## Turn on Windows Features
+Press ⊞ Win + R and enter 
+> appwiz.cpl 
+Check Windows Hypervisor Platform and click OK. Reboot your PC when done.
+### Create AVD  
+Enter the following command
+> avdmanager create avd --name "Pixel" --package "system-images;android-28;google_apis_playstore;x86_64" --device "pixel_6"  
+Open VS Code and Ctrl + Shift + P and type Emulator select or click emulator option. You will see your newly created Pixel device. Select Pixel and your virtual device will start.
 
-11. Open Settings in vs code and search emulator . Paste C:\src\Android\SDK\emulator in Emulator Path and Emulator Path Windows.
-12. Press Win + R, enter appwiz.cpl and click Turn Windows features on or off. Now Check Windows Hypervisor Platform and click OK. Reboot your pc when done.
-13. Open cmd and enter: avdmanager create avd --name "Pixel" --package "system-images;android-28;google_apis_playstore;x86_64" --device "pixel_6" to create virtual device.
-14. Open VS Code and Ctrl + Shift + P and type Emulator select or click emulator option. You will see your newly created Pixel device. Select Pixel and your virtual device will start.
-15. You are ready to build android apps in Flutter. You don't need to install android studio anymore. You are all set. Start building your dream...!
+> Congratulations ! You are ready to build your first android app in Flutter. You don't need to install android studio anymore. You are all set. Start building your dream...!
     
    
 
