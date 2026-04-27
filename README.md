@@ -75,7 +75,8 @@ Press ⊞ Win + R and enter
 Check Windows Hypervisor Platform and click OK. Reboot your PC when done.
 ### Create AVD  
 Enter the following command
-> avdmanager create avd --name "Pixel" --package "system-images;android-28;google_apis_playstore;x86_64" --device "pixel_6"  
+> avdmanager create avd --name "Pixel" --package "system-images;android-28;google_apis_playstore;x86_64" --device "pixel_6"
+  
 Open VS Code and Ctrl + Shift + P and type Emulator select or click emulator option. You will see your newly created Pixel device. Select Pixel and your virtual device will start.
 
 > Congratulations ! You are ready to build your first android app in Flutter. You don't need to install android studio anymore. You are all set. Start building your dream...!
