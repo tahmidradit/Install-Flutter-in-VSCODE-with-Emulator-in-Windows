@@ -71,7 +71,8 @@ Open settings in VS code and search emulator. Find Emulator Path and Emulator Pa
 > C:\src\Android\SDK\emulator
 ## Turn on Windows Features
 Press ⊞ Win + R and enter 
-> appwiz.cpl 
+> appwiz.cpl
+ 
 Check Windows Hypervisor Platform and click OK. Reboot your PC when done.
 ### Create AVD  
 Enter the following command
