@@ -60,7 +60,7 @@ Check your installation may have remaining left to complete some actions. Enter 
 ## Accept Licenses
 Accept all licences and enter all y in the license agreement  
 > flutter doctor --android-licenses
-ENTER FLUTTER DOCTOR AGAIN. 
+ 
 <img width="793" height="146" alt="image" src="https://github.com/user-attachments/assets/f0fc38bc-3962-4bbf-8af6-94accd7b3e14" />
 
 If you see • No issues found! message, you have syccessfully installed Android SDK and Flutter.
